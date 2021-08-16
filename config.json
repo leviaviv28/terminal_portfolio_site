@@ -54,7 +54,6 @@
                 "title": "Software Developer",
                 "responsibilities": [
                     "Ported existing CI systems from CircleCI to GitHub Actions, improved existing CI systems, and wrote new client onboarding workflows to provision AWS resources through Terraform.",
-                    "Independently implemented PBMM government standard on off-stack NodeJS microservice.",
                     "Refactored existing NodeJS service from legacy JS to ES6 and improved testability and maintainability"
                 ]
             },
