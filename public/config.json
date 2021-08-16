@@ -1,0 +1,118 @@
+{
+    "welcome": "Welcome to Levi Aviv's Portfolio Website!\nBelow is a list of commands to help you navigate my website:",
+    "commands": [
+        {
+            "name": "welcome",
+            "description": "Displays this welcome message again"
+        },
+        {
+            "name": "socials",
+            "description": "Displays links to GitHub, LinkedIn, LeetCode, and DevPost"
+        },
+        {
+            "name": "resume",
+            "description": "Prints my resume out to the console"
+        },
+        {
+            "name": "clear",
+            "description": "Removes all output from the terminal"
+        }
+        
+    ],
+    "socials": [
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/levi-aviv/"
+        },
+        {
+            "name": "GitHub",
+            "url": "https://github.com/leviaviv28"
+        },
+        {
+            "name": "LeetCode",
+            "url": "https://leetcode.com/leviaviv28/"
+        },
+        {
+            "name": "Devpost",
+            "url": "https://devpost.com/leviaviv28"
+        }
+    ],
+    "resume": {
+        "header": "Levi Aviv's Resume",
+        "skills": [
+            "Proficiency in Python with 6 years of developing microservices, scripts, and websites",
+            "Experienced in DevOps development with Docker, Jenkins, Groovy, GitHub Actions, and Terraform",
+            "2-years of experience in C developing applications, games and embedded applications",
+            "Experienced in Windows, Linux, and MacOS development environments",
+            "Proficient in using Git version control"
+        ],
+        "experience": [
+            {
+                "company": "D2L",
+                "location": "Kitchener, Ontario",
+                "duration": "May 2021 – Present",
+                "title": "Software Developer",
+                "responsibilities": [
+                    "Ported existing CI systems from CircleCI to GitHub Actions, improved existing CI systems, and wrote new client onboarding workflows to provision AWS resources through Terraform.",
+                    "Refactored existing NodeJS service from legacy JS to ES6 and improved testability and maintainability"
+                ]
+            },
+            {
+                "company": "Amazon",
+                "location": "Vancouver, British Columbia",
+                "duration": "May 2020 – August 2020",
+                "title": "SDE Intern",
+                "responsibilities": [
+                    "Designed and implemented a modular service independent API response parser in Java enabling rapid adoption of new services with minimal new code",
+                    "Extended an internal tax testing tool to support new transaction types, extending use-case coverage by 25%",
+                    "Developed a dynamic frontend for the internal tax testing tool using JS and JSP",
+                    "Deprecated 6000+ lines of legacy code, replacing with code following modern best practices and 100%c unit-test coverage"
+                ]
+            },
+            {
+                "company": "Pentavere",
+                "location": "Toronto, Ontario",
+                "duration": "April 2020 – May 2020",
+                "title": "DevOps Consultant",
+                "responsibilities": [
+                    "Independently designed and implemented CI/CD infrastructure automating the build, testing, and deployment process of Java and Python projects using Python, Groovy, and Jenkins",
+                    "Gathered requirements from the customer and created formal specification documentation to be used in the design process"
+                ]
+            },
+            {
+                "company": "Wilfrid Laurier University",
+                "location": "Waterloo, Ontario",
+                "duration": "September 2019 – December 2019",
+                "title": "Instructional Assistant",
+                "responsibilities": [
+                    "Assisted in leading Introductory to Computer Programming lab with 30 students",
+                    "Graded students and provided support and instruction in competing programming tasks in lab"
+                ]
+            },
+            {
+                "company": "Sandvine",
+                "location": "Waterloo, Ontario",
+                "duration": "May 2019 – August 2019",
+                "title": "Build Engineer",
+                "responsibilities": [
+                    "Designed a general API system for extending the CI system through plugins using Python and RabbitMQ",
+                    "Created Continuous Integration infrastructure using Jenkins, Groovy and Python",
+                    "Optimized existing CI systems, reducing build time from 2 hours per build to under 45 minutes",
+                    "Wrote systems tests for Continuous Integration platform to ensure new builds have no regression"
+                ]
+            },
+            {
+                "company": "AgrilogicAI",
+                "location": "Toronto, Ontario",
+                "duration": "June 2018 – August 2018",
+                "title": "Full Stack Developer",
+                "responsibilities": [
+                    "Improved TensorFlow machine learning model accuracy by 10%",
+                    "Developed web app to visualize machine learning data using JavaScript and D3.js",
+                    "Overhauled entire data flow system of program and enabled multithreading on several processes",
+                    "Set up AWS and Google Cloud VM Instances"
+                ]
+            }
+        ]
+    }
+}

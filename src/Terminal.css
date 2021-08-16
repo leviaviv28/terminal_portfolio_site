@@ -1,0 +1,62 @@
+.InputContainer {
+    height: 100vh;
+}
+.TerminalDiv {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+li {
+    margin-left: 40px;
+    margin-bottom: 10px;
+    list-style: none;
+
+}
+
+.CursorActive {
+    background-color: darkgreen;
+    white-space: pre;
+}
+
+.CursorInactive {
+    background-color: black;
+    white-space: pre;
+}
+
+.outputBufferSpan {
+    display: inline;
+}
+
+.inputSpan {
+    display: inline;
+    word-wrap: break-word;
+}
+
+.CommandOutput {
+    margin-bottom: 15px;
+}
+
+.ResumeList {
+    list-style: circle;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Resume {
+    font-size: smaller;
+}
+
+.ResumeHeader {
+    margin: 0;
+    margin-top: 15px;
+}
+
+:focus-visible {
+    outline: none;
+  }
+    
+  /* Focusing the button with a mouse, touch, or stylus will show a subtle drop shadow. */
+  button:focus:not(:focus-visible) {
+    outline: none;
+  }

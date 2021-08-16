@@ -1,0 +1,9 @@
+html, #root {
+  background-color: black;
+  color: chartreuse;
+  font-family: 'Ubuntu Mono', monospace;
+  word-wrap: break-word;
+  height: 98vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
