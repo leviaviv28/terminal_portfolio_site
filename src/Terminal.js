@@ -1,5 +1,6 @@
 import React from "react";
 import "./Terminal.css";
+import "./Crt.css"
 
 // TODO: Add resume section, about me maybe?, add animation to drawing?
 
@@ -50,14 +51,16 @@ class Terminal extends React.Component {
 
     render() {
         return (
-                <div className="TerminalDiv" tabIndex="0">
-                    <span className="outputBufferSpan">
-                        {this.state.outputBuffer}
-                    </span>
-                    <span className="inputSpan" ref={(el) => this.inputLine = el}>
-                        {this.renderInputLine()}
-                    </span>
-                </div>    
+                <div className="Crt">
+                    <div className="TerminalDiv" tabIndex="0">
+                        <span className="outputBufferSpan">
+                            {this.state.outputBuffer}
+                        </span>
+                        <span className="inputSpan" ref={(el) => this.inputLine = el}>
+                            {this.renderInputLine()}
+                        </span>
+                    </div>
+                </div>
         );
     }
 
