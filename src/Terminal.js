@@ -1,6 +1,7 @@
 import React from "react";
 import "./Terminal.css";
 import "./Crt.css"
+import Matrix from "./Matrix";
 
 // TODO: Add resume section, about me maybe?, add animation to drawing?
 
@@ -31,7 +32,7 @@ class Terminal extends React.Component {
     }
 
     componentDidMount() {
-        fetch('config.json')
+        fetch('/terminal_portfolio_site/config.json')
         .then((res) => res.json())
         .then(json => this.config = json)
         .then(() => {
@@ -107,7 +108,9 @@ class Terminal extends React.Component {
                 currentCursorPos: 0,
             });
 
-            this.inputLine.scrollIntoView({behavior: 'smooth'});
+            if (this.inputLine) {
+                this.inputLine.scrollIntoView({behavior: 'smooth'});
+            }
         }
         else if (event.keyCode === 37) {
             this.moveCursor(-1);
@@ -195,10 +198,10 @@ class Terminal extends React.Component {
             case 'resume':
                 return this.displayResume();
             case 'clear':
-                this.setState({
-                    outputBuffer: []
-                }, () => console.log(this.state.outputBuffer));
-                return this.generateWelcomeMessage()
+                this.setState({outputBuffer: []});
+                return this.generateWelcomeMessage();
+            case 'matrix':
+                return (<Matrix length={25} width={30} speed={30}/>);
             case '':
                 return ''
             default:

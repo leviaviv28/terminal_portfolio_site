@@ -16,6 +16,10 @@
         {
             "name": "clear",
             "description": "Removes all output from the terminal"
+        },
+        {
+            "name": "matrix",
+            "description": "Displays an animation of falling characters"
         }
         
     ],
