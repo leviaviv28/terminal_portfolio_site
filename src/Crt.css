@@ -134,7 +134,7 @@ Source: http://aleclownes.com/2017/02/01/crt-display.html
   .Crt::after {
     content: " ";
     display: block;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
@@ -148,7 +148,7 @@ Source: http://aleclownes.com/2017/02/01/crt-display.html
   .Crt::before {
     content: " ";
     display: block;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
